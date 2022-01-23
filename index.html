@@ -1,49 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" type="text/css" href="styles.css">
-       <!-- if we'll need to use a some fancy fonts -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-       <script src="https://kit.fontawesome.com/2e6c0ac26b.js" crossorigin="anonymous"></script>
-       <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <title>"TechHive Agency"</title>
-   </head>
-   <body>
-       <header>
-           <!-- Title and Navigation menu -->
-           <nav class="nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- if we'll need to use a some fancy fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2e6c0ac26b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>"TechHive Agency"</title>
+  </head>
+  <body>
+    <header>
+      <!-- Title and Navigation menu -->
+      <nav class="nav">
+        <div class="menu">
+          <ul>
+            <li><a href="#home">What we do</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
 
-            <div class="menu">
-                 <ul>
-                   
-                    <li><a href="#home">What we do</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#contact">Contact us</a></li>
-    
-                    <div class="dropdown">
-                        <button class="dropbtn" id="links">TechHive
-                           <i class="fas fa-cogs"></i>
-                        </button>
-                        <div class="dropdown_content">
-                          <a href="#home">What we do<i class="icon fas fa-home"></i></a>
-                          <a href="#about">Abous us<i class="icon fas fa-address-book"></i></a>
-                          <a href="#contact">Contact us<i class="icon fas fa-paper-plane"></i></a> 
-                        </div>
-                    </div> 
-
-                 </ul>
+            <div class="dropdown">
+              <button class="dropbtn" id="links">
+                TechHive
+                <i class="fas fa-cogs"></i>
+              </button>
+              <div class="dropdown_content">
+                <a href="#home">What we do<i class="icon fas fa-home"></i></a>
+                <a href="#about"
+                  >Abous us<i class="icon fas fa-address-book"></i
+                ></a>
+                <a href="#contact"
+                  >Contact us<i class="icon fas fa-paper-plane"></i
+                ></a>
+              </div>
             </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        </nav>
-       </header>
-
-          <!-- Introduction/Home/What the agency does -->
-          <!-- Abous us -->
-          <!-- Contact us -->
-          <!-- Footer -->
-      <script src="script.js"></script> 
-   </body>
+    <!-- Introduction/Home/What the agency does -->
+    <!-- Abous us -->
+    <section>
+      <h2>Meet the team</h2>
+      <div class="team-container">
+        <div class="team-member">
+          <img
+            src="images/male-avatar.png"
+            alt="Headshop of brunette male in yellow t-shirt"
+          />
+          <p>Peter Parker</p>
+          <p>
+            Peter handles our client relations and operational logistics. He
+            currently supports clients in healthcare, ad-tech and technology.
+            Peter has expansive relations, marketing and social media
+            experience, having worked with top companies such as SalesForce and
+            Tesla. The fact he is a tech guru is juust a bonus! He enjoys
+            rockclimbing on the coast and winter swimming.
+          </p>
+        </div>
+        <div class="team-member">
+          <img
+            src="images/female-avatar.png"
+            alt="Headshot of brunette female in pink t-shirt, wearing headphones"
+          />
+          <p>Lois Lane</p>
+          <p>
+            Lois handles our client relations and account management. With over
+            10years experience as a Finance Manager, she can provide expert
+            guidance and organization for you and your team. Always willing to
+            go the extra mile to help the clients we work with she more than
+            deserves the peaceful walks she takes every weekend in the woods
+            with her dog Fudge.
+          </p>
+        </div>
+        <div class="team-member">
+          <img
+            src="images/sleepy-cat.png"
+            class="cat"
+            alt="Grey stripy cat sleeping, curled up"
+          />
+          <p>Garfield</p>
+          <p>
+            The smallest, furriest member of our team. Garfeild makes up for
+            what he lacks in size with his attentiveness. He brings joy to
+            employees and clients alike with his gentle demeanor. His
+            responsibilities include; inventory check (alert humans when food
+            supplies are low) and keep a watchfull eye on this "mouse" the
+            humans use all day.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us -->
+    <section class="form">
+      <h3>Get in touch</h3>
+      <form action="/">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="company">Company name:</label><br />
+        <input type="text" id="company" name="company" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <br />
+        <button type="submit" value="submit">Submit</button>
+      </form>
+    </section>
+    <!-- Footer -->
+    <script src="script.js"></script>
+  </body>
 </html>
