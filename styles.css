@@ -202,3 +202,17 @@ form > input {
   background: var(--green-tint);
   cursor: pointer;
 }
+
+/*footer*/
+footer {
+  font-family: monospace;
+}
+
+footer a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
