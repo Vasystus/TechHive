@@ -111,13 +111,34 @@
       <h3>Get in touch</h3>
       <form action="/">
         <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" /><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required="required"
+          aria-required="true"
+        /><br />
         <label for="company">Company name:</label><br />
-        <input type="text" id="company" name="company" /><br />
+        <input
+          type="text"
+          id="company"
+          name="company"
+          required="required"
+          aria-required="true"
+        /><br />
         <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required="required"
+          aria-required="true"
+        /><br />
+        <label for="tel">Telephone:</label><br />
+        <input type="tel" id="tel" name="tel" /><br />
         <br />
-        <button type="submit" value="submit">Submit</button>
+
+        <input class="submit" type="submit" value="Submit" />
       </form>
     </section>
     <!-- Footer -->
