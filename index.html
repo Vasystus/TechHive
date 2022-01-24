@@ -27,29 +27,29 @@
     <header>
       <!-- Title and Navigation menu -->
       <nav class="nav">
-        <div class="menu">
-          <ul>
-            <li><a href="#home">What we do</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#contact">Contact us</a></li>
+            <div class="menu">
+                 <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#agency">What we do</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+    
+                    <div class="dropdown">
+                        <button class="dropbtn" id="links">TechHive
+                            <i class="fas fa-cogs"></i>
+                        </button>
+            
+                        
+                        <div class="dropdown_content">
+                          <a href="#home">Home<i class="icon fas fa-home"></i></a>
+                          <a href="#agency">What we do<i class="icon fas fa-code-branch"></i></a>
+                          <a href="#about">Abous us<i class="icon fas fa-address-book"></i></a>
+                          <a href="#contact">Contact us<i class="icon fas fa-paper-plane"></i></a> 
+                        </div>
+                    </div> 
 
-            <div class="dropdown">
-              <button class="dropbtn" id="links">
-                TechHive
-                <i class="fas fa-cogs"></i>
-              </button>
-              <div class="dropdown_content">
-                <a href="#home">What we do<i class="icon fas fa-home"></i></a>
-                <a href="#about"
-                  >Abous us<i class="icon fas fa-address-book"></i
-                ></a>
-                <a href="#contact"
-                  >Contact us<i class="icon fas fa-paper-plane"></i
-                ></a>
-              </div>
+                 </ul>
             </div>
-          </ul>
-        </div>
       </nav>
     </header>
 
@@ -154,6 +154,55 @@
       </p>
     </footer>
 
-    <script src="script.js"></script>
-  </body>
+
+        <!-- Introduction/Home -->
+        <section class="intro" id="home">
+            <h1 class="intro_home">
+                Welcome, we are <strong>TechHive!</strong>
+            </h1>
+            <p class="home_p">We are passionate about making the web accessible to everyone and advocating building open and inclusive developer communities.
+            </p>
+          </section>
+   
+        <!-- What the agency does -->
+        <section class="agency" id="agency">
+          <h2 class="title">What we do</h2>
+
+          <p class="home_p">We match web developers with jobs and companies who need jobs to be done, so beautiful projects can be created.</p>
+         
+            <div class="agency_div">
+                  <div class="list">
+                      <h3 class="agency_subtitle">Are you looking for:</h3>
+
+                      <ul style="list-style-type:square;">
+                         <li>software engineers?</li> 
+                         <li>front-end developers?</li>
+                         <li>UI/UX product designers?</li>
+                         <li>technologists?</li> 
+                      </ul>
+                  </div>
+          
+                  <div class="list">
+                      <h3 class="agency_subtitle">Are you:</h3>
+                      
+                      <ul style="list-style-type:disc;">
+                         <li>a creative coder?</li>
+                         <li>a specialist in designing exceptional digital experiences?</li>
+                         <li>focused on the front-end of the web?</li>
+                         <li>an expert in tech?</li>
+                      </ul>
+                      
+                     
+                  </div>
+            
+            </div>
+            <p class="home_p">We will match you!</p>
+            <a href="#contact" class="btn">Get in touch with us!</a>
+        </section>
+          <!-- Abous us -->
+          <!-- Contact us -->
+          <!-- Footer -->
+      <script src="script.js"></script> 
+   </body>
 </html>
+
