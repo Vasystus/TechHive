@@ -202,3 +202,20 @@ form > input {
   background: var(--green-tint);
   cursor: pointer;
 }
+
+/*footer*/
+footer {
+  font-family: monospace;
+  padding-top: 5em;
+  line-height: 18px;
+}
+
+footer a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-transform: uppercase;
+  font-size: larger;
+}
