@@ -206,6 +206,8 @@ form > input {
 /*footer*/
 footer {
   font-family: monospace;
+  padding-top: 5em;
+  line-height: 18px;
 }
 
 footer a {
@@ -214,5 +216,6 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: larger;
 }
