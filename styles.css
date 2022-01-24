@@ -270,6 +270,7 @@ h3 {
 }
 p {
   color: var(--light-slate);
+  line-height: 20px;
 }
 
 /*meet the team section*/
