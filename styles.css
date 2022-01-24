@@ -23,6 +23,7 @@
 header {
     width: 100%;
     overflow: hidden;
+    background: var(--navy);
 }
 
 /* menu with buttons*/
@@ -95,7 +96,7 @@ header {
   .dropdown_content {
     display: none;
     position: absolute;
-    background-color: var(--green);
+    background-color: var(--slate);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -129,6 +130,14 @@ header {
     float: right;
     color: var(--dark-navy);
   }
+
+  @media screen and (max-width: 600px) {
+    .menu li a
+    .dropdown_content a {
+      float: none;
+      width: 100%;
+    }
+  }
 /* home section*/
 .intro
 .agency
@@ -140,7 +149,7 @@ header {
 
 .home_p {
      font-family:'Source Sans Pro', sans-serif;
-     font-size: 1.25 rem;
+     font-size: 1.50 rem;
      color: var(--light-slate);
      text-align: center;
     } 
@@ -176,8 +185,8 @@ h3 {
 } 
 /* what we do section */
 .agency {
-    position: relative;
-    background-color: var(--lightest-navy);   
+    background-color: var(--lightest-navy);  
+    text-align: center;
 }
 .title {
    color: var(--white);
@@ -223,24 +232,25 @@ h3 {
 
 .btn {
     display: inline-block;
-    position: absolute;
     background-color: var(--lightest-navy);
     border: 2px solid #64ffda;
     color: var(--green);
-    padding: 16px 24px;
+    padding: 12px 18px;
     text-align: center;
     font-size: 16px;
     font-weight: 800;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    border-radius: 6px;
   }
 
 .btn:hover {
     transform: scale(1.1);
-    background: var(--green);
-    color: var(--dark-navy);
-    
+    background: var(--green-tint);
+    color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 6px;
 }
 
 
