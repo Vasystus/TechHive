@@ -6,7 +6,7 @@ Website project for the Founders and Coders 2022
 ## View site
 
 You can view the application website at the following link: 
-:star: [Website link]() :star:
+:star: [Website link](https://vasystus.github.io/TechHive/) :star:
 
 - [x] All code written by @Vasystus (Hallie) and @mariaalouisaa (Maria)
 - [x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes)
