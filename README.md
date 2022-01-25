@@ -8,7 +8,7 @@ Website project for the Founders and Coders 2022
 You can view the application website at the following link: 
 :star: [Website link]() :star:
 
-- [x] All code written by @Vasystus(Hallie) and @mariaalouisaa(Maria)
+- [x] All code written by @Vasystus (Hallie) and @mariaalouisaa (Maria)
 - [x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes)
 - [x] Hosted on GitHub Pages 
 - [x] Uses semantic HTML5 elements 
