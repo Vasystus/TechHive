@@ -155,7 +155,7 @@ header {
 
 .home_p {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5 rem;
+  font-size: 2.5 rem;
   color: var(--light-slate);
   text-align: center;
 }
@@ -222,6 +222,7 @@ h3 {
   padding: 18px;
   text-align: justify;
   color: var(--lightest-slate);
+  line-height: 20px;
 }
 
 .agency_div {
@@ -270,6 +271,7 @@ h3 {
 p {
   color: var(--light-slate);
   line-height: 20px;
+  font-size: 1rem;
 }
 
 /*meet the team section*/
