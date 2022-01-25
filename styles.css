@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  padding: 3em;
+  padding: 0 3em;
   font-family: "Roboto", sans-serif;
 }
 
@@ -250,9 +250,6 @@ h3 {
 .btn:hover {
   transform: scale(1.1);
   background: var(--green-tint);
-  color: var(--green);
-  border: 2px solid var(--green);
-  border-radius: 6px;
 }
 
 /*font on the entire page*/
@@ -290,6 +287,7 @@ p {
 
 .team-member img {
   width: 8em;
+  max-width: 8em;
   padding: 1em;
   border-radius: 50%;
   background-color: #f5eee5;
