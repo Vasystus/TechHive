@@ -345,9 +345,11 @@ h3 {
 
 /*footer*/
 footer {
+  border-top: 1px solid var(--light-slate);
   font-family: monospace;
-  padding-top: 5em;
+  margin-top: 5em;
   line-height: 18px;
+  text-align: center;
 }
 
 footer a {
