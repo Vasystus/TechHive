@@ -304,7 +304,7 @@ p {
   font-size: 18px;
 }
 
-/*conact form*/
+/*contact form*/
 .form {
   color: var(--light-slate);
   background-color: var(--light-navy);
@@ -361,8 +361,5 @@ footer a {
 footer a:hover {
   text-transform: uppercase;
   font-size: larger;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e185b16e553a20690925fce3affe5b451d414c32
+
