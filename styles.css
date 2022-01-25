@@ -307,7 +307,7 @@ p {
 /*contact form*/
 .form {
   color: var(--light-slate);
-  background-color: var(--light-navy);
+  background-color: var(--lightest-navy);
   margin: 0 auto;
   max-width: 28em;
   padding: 3em;
