@@ -15,6 +15,9 @@
   --green: #64ffda;
   --green-tint: rgba(100, 255, 218, 0.1);
   --blue: #57cbff;
+  --lightest-navy: #233554;
+  --dark-slate: #495670;
+
 }
 
 html {
